@@ -2,24 +2,22 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
 	var fruitList [4]string
 
-	fruitList[0]="Apple"
-	fruitList[1]="pinaple"
-	// fruitList[2]="crustedapple"
-	fruitList[3]="maongo"
+	fruitList[0] = "Apple"
+	fruitList[1] = "pinaple"
+	fruitList[2] = "crustedapple"
+	fruitList[3] = "mango"
 
-	fmt.Printf("type of array:%T\n",fruitList)
+	fmt.Printf("type of array:%T\n", fruitList)
 
-	fruitList=append(fruitList,"cadburry")
+	fruitList = append(fruitList, "cadburry")
 
+	fmt.Println("fruits:", fruitList)
 
-	fmt.Println("fruits:",fruitList)
+	veggies := [5]string{"potatao1", "potatao2", "potatao3", "potatao4"}
 
-	
-	veggies:=[5]string{"potatao1","potatao2","potatao3","potatao4"}
-
-	fmt.Println("veggies",veggies)
+	fmt.Println("veggies", veggies)
 }
